@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: button2
+  m_Shader: {fileID: 4800000, guid: 33b36dbf941ee8f4a8d86c9416acd937, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - <noninit>:
+        m_Texture: {fileID: 2800000, guid: 502129aba4c5b2b4088c7c0ca819d358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GenFrameremap2_15764:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Untitled2_10102:
+        m_Texture: {fileID: 2800000, guid: ead4a9a50a5723a498daac8fb5062021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Untitled2_25190:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Untitled67_10134:
+        m_Texture: {fileID: 2800000, guid: 5e944a9a75f57a248adc971cafa406f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Untitled67_123120:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button:
+        m_Texture: {fileID: 2800000, guid: ead4a9a50a5723a498daac8fb5062021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button2_remap2:
+        m_Texture: {fileID: 2800000, guid: 502129aba4c5b2b4088c7c0ca819d358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button2_remap2_10892:
+        m_Texture: {fileID: 2800000, guid: 502129aba4c5b2b4088c7c0ca819d358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button2remap2_10114:
+        m_Texture: {fileID: 2800000, guid: 502129aba4c5b2b4088c7c0ca819d358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button2remap2_10552:
+        m_Texture: {fileID: 2800000, guid: 502129aba4c5b2b4088c7c0ca819d358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button2remap2_9784:
+        m_Texture: {fileID: 2800000, guid: 502129aba4c5b2b4088c7c0ca819d358, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_10062:
+        m_Texture: {fileID: 2800000, guid: ead4a9a50a5723a498daac8fb5062021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_10102:
+        m_Texture: {fileID: 2800000, guid: ead4a9a50a5723a498daac8fb5062021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_10386:
+        m_Texture: {fileID: 2800000, guid: ead4a9a50a5723a498daac8fb5062021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_9624:
+        m_Texture: {fileID: 2800000, guid: ead4a9a50a5723a498daac8fb5062021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _glowBot:
+        m_Texture: {fileID: 2800000, guid: 47e576f4c5346ab47be98ebf3e505ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _glowBot_10020:
+        m_Texture: {fileID: 2800000, guid: 47e576f4c5346ab47be98ebf3e505ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _glowBot_10342:
+        m_Texture: {fileID: 2800000, guid: 47e576f4c5346ab47be98ebf3e505ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _glowBot_29356:
+        m_Texture: {fileID: 2800000, guid: 47e576f4c5346ab47be98ebf3e505ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _glowBot_9602:
+        m_Texture: {fileID: 2800000, guid: 47e576f4c5346ab47be98ebf3e505ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - <noninit>: 15
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - <noninit>: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_ROOT: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color3: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image3: {r: 1, g: 1, b: 1, a: 1}

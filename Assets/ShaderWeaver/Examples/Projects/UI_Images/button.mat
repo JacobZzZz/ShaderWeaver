@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: button
+  m_Shader: {fileID: 4800000, guid: 595db9724df336c408a6935619f49ce6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _bt_20338:
+        m_Texture: {fileID: 2800000, guid: 5e248bba6ff259d49b17f789d307b1bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button:
+        m_Texture: {fileID: 2800000, guid: 014c543ca53a9c9498c4a415907c93aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_10600:
+        m_Texture: {fileID: 2800000, guid: 014c543ca53a9c9498c4a415907c93aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_10944:
+        m_Texture: {fileID: 2800000, guid: 014c543ca53a9c9498c4a415907c93aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_11496:
+        m_Texture: {fileID: 2800000, guid: 014c543ca53a9c9498c4a415907c93aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_9806:
+        m_Texture: {fileID: 2800000, guid: 014c543ca53a9c9498c4a415907c93aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_9848:
+        m_Texture: {fileID: 2800000, guid: 014c543ca53a9c9498c4a415907c93aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_remap1:
+        m_Texture: {fileID: 2800000, guid: 6998055a37e401e42933b04f16175813, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _button_remap1_10794:
+        m_Texture: {fileID: 2800000, guid: 6998055a37e401e42933b04f16175813, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _buttonremap1_10456:
+        m_Texture: {fileID: 2800000, guid: 6998055a37e401e42933b04f16175813, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _buttonremap1_9738:
+        m_Texture: {fileID: 2800000, guid: 6998055a37e401e42933b04f16175813, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _buttonremap1_9790:
+        m_Texture: {fileID: 2800000, guid: 6998055a37e401e42933b04f16175813, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1remap1_20362:
+        m_Texture: {fileID: 2800000, guid: 6998055a37e401e42933b04f16175813, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flameClamp_14000:
+        m_Texture: {fileID: 2800000, guid: 9cf4eeda8aed5f24d9ac80cfb6c7a24d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_10544:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_10884:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_11142:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_15202:
+        m_Texture: {fileID: 2800000, guid: c0f995fd4e5867e45b6d2a4134e00b5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_9778:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_9828:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_10492:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_10832:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_13992:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_9768:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_9770:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave_9818:
+        m_Texture: {fileID: 2800000, guid: fa3108da2fe38a748bfce58b4c9b5410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_ROOT: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color3: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image3: {r: 1, g: 1, b: 1, a: 1}

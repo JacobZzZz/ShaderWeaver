@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{79B37A50-3500-2E28-F5E3-5907F685902D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity1731/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity1731/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\EditorCoroutineRunner.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\SWCommon.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\SWEditorTools.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\SWEditorUI.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\SWEnumPopup.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\SWProperties.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\EditorCommon\SWUndo.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUI.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIClip1.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIClip2.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIClip3.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIClipBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIClipSoftBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\NGUI\SWShaderCreaterNGUIClipTex.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessAlpha.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessBlur.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessCode.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessColor.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessCoord.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessDummy.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessImage.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessMask.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessMixer.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessReflection.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessRefraction.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessRemap.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessRetro.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessRoot.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessTemplate.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\Processers\SWShaderProcessUV.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\SWShaderCreaterBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\SWShaderCreaterSprite.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\SWShaderCreaterSpriteLight.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\SWShaderCreaterUI.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\ShaderCreater\SWShaderCreaterUIFont.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\SWMaterialManager.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Generate\SWTextureProcess.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Inspectors\SWInspectorShader.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Inspectors\SWSpriteAnimationInspector.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Inspectors\SWSpriteComponentInspector.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Inspectors\SWSpriteReflectionInspector.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeAlpha.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeBlur.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeCode.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeColor.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeCoord.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeDummy.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeEffector.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeImage.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeMask.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeMixer.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeReflection.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeRefraction.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeRemap.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeRetro.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeRoot.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Node\SWNodeUV.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Slots\SWSlot.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Slots\SWSlotBox.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Slots\SWSlotBox_Drag.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Slots\SWSlotBox_Press.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Slots\SWSlotBox_Select.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_ColorRange.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_Invert.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_RemapDir.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_RemapLine.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_RemapLineStitch.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_SrcTex.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_Template.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_Tex.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_TexDrawLine.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_TexDrawPoint.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Threading\SWTexThread_Wand.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Tooltips\SWTipsText.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Tooltips\SWTooltip.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWViewWindow.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowBase.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowDrawMask.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowDrawRemap.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowEffect.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowEffectAlpha.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowEffectDummy.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowEffectImage.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowEffectUV.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowLayoutV.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowLayoutVFactor.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowMain.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowMainCode.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowMainRight.cs" />
+     <Compile Include="Assets\ShaderWeaver\Plugin\Scripts\Editor\Window\SWWindowMixerEditor.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity1731/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity1731/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity1731/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/jacob/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity1731/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity1731/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{8EC4F813-A0F2-5144-6426-45B164B2082D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

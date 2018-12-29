@@ -1,0 +1,1 @@
+{"name":"OneMinus","description":"One minus input value.","output":{"name":"o","type":2,"v":0.0,"min":0.0,"max":0.0},"inputs":[{"name":"a","type":5,"v":0.0,"min":0.0,"max":0.0}],"code":"return 1-a;"}

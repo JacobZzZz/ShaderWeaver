@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: goldCard
+  m_Shader: {fileID: 4800000, guid: e8662204109b3e74ea86c3036e49c4ae, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ffc5271eadeb95745bb342737d478577, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1mask0_10040:
+        m_Texture: {fileID: 2800000, guid: 2ac44d17897e7f9498172be989c30c07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1mask0_9672:
+        m_Texture: {fileID: 2800000, guid: 2ac44d17897e7f9498172be989c30c07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1mask1_10086:
+        m_Texture: {fileID: 2800000, guid: 6c1c68d8134b2214588a0ccbdb30a58b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1mask1_9712:
+        m_Texture: {fileID: 2800000, guid: 6c1c68d8134b2214588a0ccbdb30a58b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1remap5_10078:
+        m_Texture: {fileID: 2800000, guid: da7170545e0acad419f8f23a338a594c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _effect1remap5_9610:
+        m_Texture: {fileID: 2800000, guid: da7170545e0acad419f8f23a338a594c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_10544:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_10884:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_9754:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _flame_9788:
+        m_Texture: {fileID: 2800000, guid: 6b50937b678fd4144877b602d623578a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCard_mask0:
+        m_Texture: {fileID: 2800000, guid: 2ac44d17897e7f9498172be989c30c07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCard_mask0_10472:
+        m_Texture: {fileID: 2800000, guid: 2ac44d17897e7f9498172be989c30c07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCard_mask1:
+        m_Texture: {fileID: 2800000, guid: 6c1c68d8134b2214588a0ccbdb30a58b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCard_mask1_10676:
+        m_Texture: {fileID: 2800000, guid: 6c1c68d8134b2214588a0ccbdb30a58b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCard_remap5:
+        m_Texture: {fileID: 2800000, guid: da7170545e0acad419f8f23a338a594c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCard_remap5_10306:
+        m_Texture: {fileID: 2800000, guid: da7170545e0acad419f8f23a338a594c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCardmask0_10140:
+        m_Texture: {fileID: 2800000, guid: 2ac44d17897e7f9498172be989c30c07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCardmask1_10342:
+        m_Texture: {fileID: 2800000, guid: 6c1c68d8134b2214588a0ccbdb30a58b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _goldCardremap5_9990:
+        m_Texture: {fileID: 2800000, guid: da7170545e0acad419f8f23a338a594c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ramp:
+        m_Texture: {fileID: 2800000, guid: f0c751e3e6b99b549bfc463f96fc132f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ramp_10280:
+        m_Texture: {fileID: 2800000, guid: f0c751e3e6b99b549bfc463f96fc132f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ramp_9542:
+        m_Texture: {fileID: 2800000, guid: f0c751e3e6b99b549bfc463f96fc132f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ramp_9600:
+        m_Texture: {fileID: 2800000, guid: f0c751e3e6b99b549bfc463f96fc132f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ramp_9964:
+        m_Texture: {fileID: 2800000, guid: f0c751e3e6b99b549bfc463f96fc132f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _smoke:
+        m_Texture: {fileID: 2800000, guid: 3a56997b82e6e2f4b9188e194bd481db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _smoke_10546:
+        m_Texture: {fileID: 2800000, guid: 3a56997b82e6e2f4b9188e194bd481db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _smoke_10886:
+        m_Texture: {fileID: 2800000, guid: 3a56997b82e6e2f4b9188e194bd481db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _smoke_9756:
+        m_Texture: {fileID: 2800000, guid: 3a56997b82e6e2f4b9188e194bd481db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _smoke_9790:
+        m_Texture: {fileID: 2800000, guid: 3a56997b82e6e2f4b9188e194bd481db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave2:
+        m_Texture: {fileID: 2800000, guid: ba2b92c5602f6584099e57edcb4a153d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave2_10072:
+        m_Texture: {fileID: 2800000, guid: ba2b92c5602f6584099e57edcb4a153d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave2_10398:
+        m_Texture: {fileID: 2800000, guid: ba2b92c5602f6584099e57edcb4a153d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave2_9598:
+        m_Texture: {fileID: 2800000, guid: ba2b92c5602f6584099e57edcb4a153d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wave2_9646:
+        m_Texture: {fileID: 2800000, guid: ba2b92c5602f6584099e57edcb4a153d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _xman:
+        m_Texture: {fileID: 2800000, guid: c8ae61a840c17e444b253ae9786342d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _xman_10336:
+        m_Texture: {fileID: 2800000, guid: c8ae61a840c17e444b253ae9786342d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _xman_10670:
+        m_Texture: {fileID: 2800000, guid: c8ae61a840c17e444b253ae9786342d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _xman_9662:
+        m_Texture: {fileID: 2800000, guid: c8ae61a840c17e444b253ae9786342d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _xman_9706:
+        m_Texture: {fileID: 2800000, guid: c8ae61a840c17e444b253ae9786342d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_ROOT: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color11: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color12: {r: 1, g: 0.816, b: 0.447, a: 1}
+    - _Color_color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color4: {r: 1, g: 0.672, b: 0.284, a: 1}
+    - _Color_color6: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image11: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image12: {r: 1, g: 0.816, b: 0.447, a: 1}
+    - _Color_image2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image4: {r: 1, g: 0.672, b: 0.284, a: 1}
+    - _Color_image6: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,1 @@
+{"name":"Grayscale","description":"Turn a color into grayscale.","output":{"name":"o","type":0,"v":0.0,"min":0.0,"max":0.0},"inputs":[{"name":"color","type":0,"v":0.0,"min":0.0,"max":0.0},{"name":"rate","type":4,"v":1.0,"min":0.0,"max":1.0}],"code":"fixed gray = Luminance(color.rgb);\r\nreturn lerp(color, float4(gray,gray,gray,color.a),rate);"}

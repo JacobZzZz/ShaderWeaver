@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: tutorial2
+  m_Shader: {fileID: 4800000, guid: 051c45ebc9eb6ee4cbc90aa379c6284a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Diamond:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_10356:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_10422:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_10606:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_10690:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_9586:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_9710:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diamond_9770:
+        m_Texture: {fileID: 2800000, guid: e9d3d239a897e32439d7062da97aca3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a9c9beca4efbcdc44ba70da88e0100c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _p: 40
+    - p: 40
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_ROOT: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_image1: {r: 1, g: 1, b: 1, a: 1}

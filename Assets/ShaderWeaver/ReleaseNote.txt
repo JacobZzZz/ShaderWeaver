@@ -1,0 +1,119 @@
+Release Notes 1.3.4
+* Support Unity 2018
+* Bug fixes
+
+Release Notes 1.3.3
+* Remap Node improvement
+* Fixed a preview issue
+
+Release Notes 1.3.2
+* New blend mode:Off
+
+Release Notes 1.3.1
+* Compatible with NGUI. Add a new ShaderType 'UI2D Sprite(NGUI)'.
+* Support normal map for sprite lighting.
+* Bug fixes
+
+Release Notes 1.3.0d
+* Bug fixes
+
+Release Notes 1.3.0c
+* Bug fixes
+
+Release Notes 1.3.0b
+* Bug fixes
+
+Release Notes 1.3.0
+* 25 new blend operators.
+* Add Dummy Node
+* Add Coord Node
+* Add Code Node with templates
+* Remade Mixer Node
+* Tutorials for new nodes
+* 4 examples for code node
+* Resolution setting for Mask/Remap Node
+* Color and Custom Params can be changed immediately without updating
+* Editor window optimization
+* UI layout adjustment
+* Unify line ending for win/mac
+* More hotkeys 
+* Smooth preview on mouse over
+* Support shader name editing
+* Support render type option
+* Bug fixes
+
+Release Notes 1.2.2b
+* Bug fixes
+
+Release Notes 1.2.2
+* Support fallback
+* Fixed display issue on Android chipset Mediatek 6582
+
+Release Notes 1.2.1d
+* Support both 'delete' key and 'backspace' key for deleting nodes
+
+Release Notes 1.2.1c
+* Texture property suffix will be added only when textures have same name
+
+Release Notes 1.2.1b
+* Fixed shader compiler error on custom field when project is updating from 1.0.x
+* Fixed some build errors
+
+Release Notes 1.2.1
+* Add Mixer Node
+* Add Color Node( Previous Color Node is now called Image Node)
+* Add tutorial:dissolve
+* Add sprite example:vanish
+Improvements
+* Color properties of nodes will apply to material with each update
+* Shader will be checked if it is created by Shader Weaver before open
+* Removed unnecessary Mask Node color property in material
+* Removed duplicated output enum in json data
+* Fixed reflection issue when msaa is on
+
+Release Notes 1.2.0beta
+* Colorful Nodes
+* Open Source
+* Support Sprite Animation 
+* Support Sprite Lighting 
+* Support Animation Sheet 
+* Support Custom Remap Texture 
+* Support HDR Color 
+* Add Blur Node
+* Add Retro Node
+* Add Refract Node
+* Add Reflect Node
+Improvements
+* Add shader model options
+* More blend modes options
+* Bright/Dark background switching
+* Project can be saved as another project now
+* Project can be renamed now
+* Merge duplicate texture properties
+* Isolated nodes' texture will not be written in to shader
+* Fixed effect play speed in editor mode
+* Fixed	Root node blur problem 
+* Fixed saving directory outside of project folder
+* Fixed null reference When set sprite to none
+
+Release Notes 1.1.2
+* Support custom mask texture
+
+Release Notes 1.1.1
+* Fixed node window display issue on Mac
+* Fixed shader compiler error on Mac
+
+Release Notes 1.1.0
+* New Shader Weaver logo.
+* New UI examples.
+* Fixed Bugs.
+
+Release Notes 1.0.1 
+* Support Unity 5.6!
+* New website: www.shaderweaver.com
+* Fixes
+* Fixed shader inspector error in Unity 5.6 
+* Fixed Json parsing error in Unity 5.6 
+
+Release Notes 1.0.0 
+* Original release.

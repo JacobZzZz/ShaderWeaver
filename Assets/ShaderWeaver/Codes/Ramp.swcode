@@ -1,0 +1,1 @@
+{"name":"Ramp","description":"Use color's alpha channel as UV's coordinate on X.","output":{"name":"o","type":1,"v":0.0,"min":0.0,"max":0.0},"inputs":[{"name":"Color","type":0,"v":0.0,"min":0.0,"max":0.0}],"code":"return float2(sqrt(Color.a),0.5);"}
